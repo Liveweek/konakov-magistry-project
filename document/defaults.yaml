@@ -1,0 +1,10 @@
+from: markdown
+to: docx
+reference-doc: custom-reference.docx
+metadata:
+  figureTitle: Рисунок
+  figPrefix: Рисунок
+  tableTitle: Таблица
+  tblPrefix: Таблица
+  eqnPrefix: ""
+  titleDelim: " - "
