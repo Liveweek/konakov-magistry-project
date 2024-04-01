@@ -2,9 +2,9 @@ from: markdown
 to: docx
 reference-doc: custom-reference.docx
 metadata:
-  figureTitle: Рисунок
+  figureTitle: рисунок
   figPrefix: Рисунок
-  tableTitle: Таблица
+  tableTitle: таблица
   tblPrefix: Таблица
   eqnPrefix: ""
   titleDelim: " - "
