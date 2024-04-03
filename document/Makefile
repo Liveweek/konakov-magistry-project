@@ -4,4 +4,9 @@ clean:
 	
 build:
 	mkdir -p build
-	pandoc --defaults=defaults.yaml -F pandoc-crossref --citeproc -o build/result.docx src/chapter_1/*.md src/chapter_2/*.md
+	pandoc --defaults=defaults.yaml \
+		-F pandoc-crossref \
+		--citeproc \
+		-o build/result.docx \
+		src/chapter_1/*.md \
+		src/chapter_2/*.md
